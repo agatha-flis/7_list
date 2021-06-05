@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/list.cpp
+list.h
+../src/list.h
+
+../src/list.h
+iostream
+-
+
+/home/agata/Documents/mp7a/main.cpp
+list.h
+/home/agata/Documents/mp7a/list.h
+list.cpp
+/home/agata/Documents/mp7a/list.cpp
+iostream
+-
+
