@@ -12,18 +12,8 @@ int main()
 	a.add(5);
 	a.add(6);
 	a.print();
-	std::cout << a.total_elements() << std::endl;
-
-	LinkedList<char> b;
-	b.add('a');
-	b.add('b');
-	b.add('c');
-	b.add('d');
-	b.add('e');
-	b.print();
-	a.delete_at(2);
+	a.reverse();
 	a.print();
-	std::cout<< b.total_elements() << std::endl;
 
 	return 0;
 }
